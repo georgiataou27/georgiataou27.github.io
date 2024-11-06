@@ -34,4 +34,30 @@
 .featuredImage{
     object-fit: cover;
     height: 500px;
+    width: 100%;
+}
+
+.h-500{
+    height: 500px;
+}
+
+.widthColumn{
+    max-width:calc(50% - 3.7em);
+}
+
+.projectColumns{
+    column-gap: 7.4em;
+    row-gap: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.ptop{
+    padding-top: 2.5rem;
+}
+
+#projectShow li:nth-child(2n){
+    padding-top: 220px;
 }
